@@ -1,6 +1,6 @@
 body {
-  padding: 5%;
-  margin: 5%;
+  padding: 0px;
+  margin: 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   background: #efeee7;
@@ -19,6 +19,10 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.nav > li > a:hover {
+  background-color: purple;
 }
 
 h3 footer {
@@ -54,15 +58,6 @@ links {
   .column {
     width: 100%;
   }
-}
-
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 @media (min-width: 768px) {
